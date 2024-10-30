@@ -1,7 +1,7 @@
 <script setup>
 // import { reactive } from 'vue';
 
-const whyUsIMG = './public/whyUs.svg'
+const whyUsIMG = '/WhyUs.svg'
 
 const cardFst = {
     header: 'Trustworthy partnership',
@@ -29,7 +29,7 @@ const cardScnd = {
                 <p> {{ cardScnd.content }}</p>
             </div>
         </div>
-    </section>.
+    </section>
 </template>
 
 <style scoped lang="scss">
@@ -61,10 +61,10 @@ section {
 
             img {
                 position: absolute;
-                height: 180%;
+                // height: 180%;
 
-                top: -200px;
-                right: -200px;
+                // top: -200px;
+                // right: -200px;
             }
         }
 

@@ -1,8 +1,18 @@
 <script setup>
+import { reactive } from 'vue';
 
-const logoIMG = './public/Logo.webp'
+const logoIMG = '/Logo.webp'
 const mainPageUrl = 'https://anteihk.com'
-const navbar = ['About us', 'Partners', 'Contact']
+const navbar = reactive([{
+    name:'About us',
+    href: '#WhyUs'
+},{
+    name: 'Partners',
+    href: '#Partners',
+},{
+    name:'Contact',
+    href: '#contact'
+}]) 
 const burgerSVG = '/burgerMenu.svg'
 
 </script>
@@ -15,7 +25,7 @@ const burgerSVG = '/burgerMenu.svg'
                 <img :src="burgerSVG" alt="burger toggle">
             </button>
             <ul>
-                <li v-for='section in navbar' :key="section" :href="'#' + section">{{ section }}</li>
+                <li v-for='section in navbar' :key="section.name" ><a :href="section.href">{{ section.name }}</a></li>
             </ul>
         </nav>
     </header>
@@ -23,7 +33,7 @@ const burgerSVG = '/burgerMenu.svg'
 
 <style scoped lang="scss">
 header {
-    height: 10vh;
+    height: 15vh;
     padding: 1% 15%;
 
     display: flex;
@@ -39,7 +49,7 @@ header {
     }
 
     img {
-        height: 80%;
+        height: 100%;
         align-self: center;
     }
 

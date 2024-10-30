@@ -3,28 +3,28 @@ import { reactive } from 'vue';
 
 const logos = reactive([{
     name: 'Deloitte',
-    src: './public/Deloitte.svg',
+    src: '/Deloitte.svg',
 }, {
     name: 'Cybersport',
-    src: './public/Cyberport.png',
+    src: '/Cyberport.png',
 }, {
     name: 'InvestHK',
-    src: './public/InvestHK.svg',
+    src: '/InvestHK.svg',
 }, {
     name: 'AWS',
-    src: './public/AWS.svg',
+    src: '/AWS.svg',
 }, {
     name: 'ITMO',
-    src: './public/ITMO.svg',
+    src: '/ITMO.svg',
 }, {
     name: 'HKSTP',
-    src: './public/HKSTP.png',
+    src: '/HKSTP.png',
 }, {
     name: 'UST',
-    src: './public/UST.svg',
+    src: '/UST.svg',
 }, {
     name: 'SparkusTech',
-    src: './public/Sparkus.svg',
+    src: '/Sparkus.svg',
 }])
 
 </script>
@@ -44,13 +44,13 @@ const logos = reactive([{
 <style scoped lang="scss">
 section {
     margin: 0% 15%;
+    margin-bottom: 5%;
     height: auto;
 
     h2 {
         text-align: center;
         font-size: 2rem;
         margin-bottom: 5rem;
-        font-style: italic;
         font-weight: 900;
     }
 
@@ -85,6 +85,7 @@ section {
     h3 {
         text-align: center; 
         margin-top: 2rem;
+        font-weight: 700;
     }
 }
 </style>

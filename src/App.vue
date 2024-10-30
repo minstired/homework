@@ -4,6 +4,8 @@ import Banner from './components/Banner.vue';
 import WhyAI from './components/WhyAI.vue';
 import WhyUs from './components/WhyUs.vue';
 import Partners from './components/Partners.vue';
+import Contact from './components/ContactSection.vue';
+import Footer from './components/Footer.vue';
 </script>
 
 <template>
@@ -13,6 +15,8 @@ import Partners from './components/Partners.vue';
   <WhyAI />
   <WhyUs />
   <Partners />
+  <Contact />
+  <Footer />
 
 </template>
 

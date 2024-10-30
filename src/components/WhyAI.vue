@@ -42,7 +42,7 @@ section {
         height: max-content;
 
         .AICard {
-            width: 25%;
+            width: 30%;
             background-color: rgb(14, 14, 14);
             padding: 2%;
             padding-top: 3%;
@@ -54,7 +54,8 @@ section {
 
                 font-size: 1.5rem;
                 font-weight: 800;
-                height: 6rem;
+                height: 7rem;
+
             }
             p {
                 font-size: 1.3rem;

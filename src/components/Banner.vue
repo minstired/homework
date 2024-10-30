@@ -1,5 +1,5 @@
 <script setup>
-const bannerIMG = './public/bannerSVG.svg'
+const bannerIMG = '/Banner.svg'
 </script>
 
 <template>
@@ -26,17 +26,14 @@ section {
     margin: 5% 15%;
 
     #leftBannerSide {
-        height: 550px;
+        height: 600px;
         width: 600px;
         position: relative;
         overflow: hidden;
 
         img {
             position: absolute;
-            height: 200%;
-
-            top: -300px;
-            right: -250px;
+            top: -5%
         }
     }
 
