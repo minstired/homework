@@ -1,7 +1,7 @@
 # ANTEI take-home
 
 ## Project Overview
-A take-home from (ANTEI)[https://anteihk.com]
+A take-home from [ANTEI](https://anteihk.com)
 
 ## Project Structure
 ```
