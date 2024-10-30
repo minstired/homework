@@ -1,7 +1,7 @@
 # ANTEI take-home
 
 ## Project Overview
-A take-home from (ANTEI)[https://anteihk.com]
+A take-home from [ANTEI](https://anteihk.com)
 
 ## Project Structure
 ```
@@ -20,7 +20,15 @@ CompanyDashboard/
 ├── package.json             # Setting to run the project
 ├── .gitignore               # Git ignore file
 ├── README.md                # Project documentation
-```
+ 
+1. Banner.vue - A welcome banner informing the user that this page is dedicated to AI&ML consulting
+2. ContactsSection - A section with company contacts and a form with feedback so that the user can contact the company if interested
+3. Footer.vue - A section with copyright information
+4. Navbar.vue - A header with navigation to different sections of the page
+5. Partners.vue - A section with partners of ANTEI
+6. WhyAI.vue - A section explaining why user should be interested in adding AI to their business and using AI consultig
+7. WhyUs.vue - A section explaining why user should choose ANTEI's AI consulting services
+
 ```
 V0 promt for component 'Contact Us':
 
