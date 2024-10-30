@@ -1,33 +1,27 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
+import Navbar from './components/Navbar.vue';
+import Banner from './components/Banner.vue';
+import WhyAI from './components/WhyAI.vue';
+import WhyUs from './components/WhyUs.vue';
+import Partners from './components/Partners.vue';
+import Contact from './components/ContactSection.vue';
+import Footer from './components/Footer.vue';
 </script>
 
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
 
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-    </div>
-  </header>
+  <Navbar />
+  <Banner />
+  <WhyAI />
+  <WhyUs />
+  <Partners />
+  <Contact />
+  <Footer />
 
-  <main>
-    <TheWelcome />
-  </main>
 </template>
 
 <style scoped>
-header {
-  line-height: 1.5;
-}
-
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
-
-@media (min-width: 1024px) {
+/* @media (min-width: 1024px) {
   header {
     display: flex;
     place-items: center;
@@ -43,5 +37,5 @@ header {
     place-items: flex-start;
     flex-wrap: wrap;
   }
-}
+} */
 </style>
