@@ -35,12 +35,11 @@ const cardScnd = {
 <style scoped lang="scss">
 section {
     margin: 5% 20%;
-    height: auto;
 
     h2 {
         text-align: center;
         font-size: 2rem;
-        margin-bottom: 2rem;
+        padding-bottom: 2rem;
         color: #FFC107;
         font-style: italic;
         font-weight: 900;
@@ -50,8 +49,8 @@ section {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 5%;
-        // height: max-content;
         align-items: center;
+        padding-bottom: 2rem;
 
 
         #whyUsContainer {
@@ -70,7 +69,7 @@ section {
         }
 
         .whyUsCard {
-            height: fit-content;
+           // height: fit-content;
 
             div.cardHeader {
 
@@ -79,7 +78,7 @@ section {
 
                 font-size: 2rem;
                 font-weight: 800;
-                margin-bottom: 1rem;
+                padding-bottom: 1rem;
 
             }
 

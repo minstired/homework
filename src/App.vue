@@ -3,6 +3,7 @@ import Navbar from './components/Navbar.vue';
 import Banner from './components/Banner.vue';
 import WhyAI from './components/WhyAI.vue';
 import WhyUs from './components/WhyUs.vue';
+import Partners from './components/Partners.vue';
 </script>
 
 <template>
@@ -11,6 +12,7 @@ import WhyUs from './components/WhyUs.vue';
   <Banner />
   <WhyAI />
   <WhyUs />
+  <Partners />
 
 </template>
 
