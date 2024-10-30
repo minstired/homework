@@ -1,18 +1,21 @@
 <script setup>
-import Header from './components/Header.vue';
+import Navbar from './components/Navbar.vue';
 import Banner from './components/Banner.vue';
+import WhyAI from './components/WhyAI.vue';
+import WhyUs from './components/WhyUs.vue';
 </script>
 
 <template>
 
-  <Header />
+  <Navbar />
   <Banner />
+  <WhyAI />
+  <WhyUs />
 
 </template>
 
 <style scoped>
-
-@media (min-width: 1024px) {
+/* @media (min-width: 1024px) {
   header {
     display: flex;
     place-items: center;
@@ -28,5 +31,5 @@ import Banner from './components/Banner.vue';
     place-items: flex-start;
     flex-wrap: wrap;
   }
-}
+} */
 </style>

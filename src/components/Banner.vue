@@ -30,7 +30,6 @@ section {
         width: 600px;
         position: relative;
         overflow: hidden;
-        display: flex;
 
         img {
             position: absolute;
